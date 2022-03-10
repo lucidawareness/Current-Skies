@@ -1,0 +1,69 @@
+#map {
+    width: 100vw;
+    height: 50vh;
+}
+
+.card {
+    margin-top: 1.5em;
+}
+
+.card-row {
+    width: 13em;
+}
+
+#blue-bar {
+    position: absolute;
+    height: 3.4em;
+    width: 100vw;
+    z-index: -1000;
+}
+
+#tittle:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 388px){
+    .nav{
+        justify-content: center;
+    }
+
+    #place-p-tag {
+        display: none;
+    }
+
+    #geocoder {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 571px){
+    #map {
+        /*display: none;*/
+    }
+    .card {
+        margin: 1.5em auto;
+    }
+    #hide {
+        /*display: none;*/
+    }
+}
+
+@media (max-width: 991px){
+    #card-container {
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    #carouselExampleControls {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    #second-card-container {
+        width: 25em;
+    }
+}
+/*575 991*/
